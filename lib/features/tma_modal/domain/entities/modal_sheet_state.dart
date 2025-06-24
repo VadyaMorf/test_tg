@@ -1,0 +1,1 @@
+enum ModalSheetState { minimized, half, full }
