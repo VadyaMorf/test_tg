@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_tg/features/tma_modal/domain/constants/urls.dart';
 import 'package:test_tg/features/tma_modal/presentation/tma_modal_page.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -19,7 +20,7 @@ class _MyHomePageState extends State<MyHomePage> {
       barrierLabel: 'Modal',
       transitionDuration: const Duration(milliseconds: 100),
       pageBuilder: (context, anim1, anim2) {
-        return TmaModalPage (url: 'https://www.proggenius.com/ua/');
+        return TmaModalPage (url: Urls.mainUrl);
       },
     );
   }
